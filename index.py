@@ -12,6 +12,7 @@ for eachline in sort:
     print (eachline)
 print(key)
 
-# collect all the unique names of assessors ( uid ) in the array
-# add to each name +1 score for every correctly solved task ( jud == cjud )
-# sort and print array of assessors by their points and show their scores
+# step 1: collect all the unique names of assessors ( uid ) in the array
+# step 2: add to each assessor +1 score for every correctly solved task ( i.e. jud == cjud )
+# step 3: sort the array of assessors asc order by their points
+# step 4: show the result
